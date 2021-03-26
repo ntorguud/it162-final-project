@@ -17,21 +17,25 @@
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 
-<h1><i class="logo fa <?= $logo ?>" <?= $logo_color ?>></i><?= $PageID ?></h1>
+<header>
+    <a href="index.html">
+        <img id="logo" src="images/enerel-logo.jpeg" alt="logo">
+    </a>
+</header>
 
 <body>
+    <div id="wrapper">
 
-    <div id="cssmenu">
-        <ul>
-            <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i>HOME</span></a></li>
-            <li><a href="about.php"><span><i class="fa fa-fw fa-bank"></i>ABOUT</span></a></li>
-            <li><a href="services.php"><span><i class="fa fa-fw fa-cube"></i>SERVICES</span></a></li>
-            <li><a href="gallery.php"><span><i class="fa fa-fw fa-camera-retro"></i>GALLERY</span></a></li>
-            <li><a href="contacts.php"><span><i class="fa fa-fw fa-chevron-down"></i>CONTACTS</span></a>
-                <ul>
-                    <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
-                    <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
-                </ul>
-            </li>
-            <li><a href="webcam.php"><span><i class="fa fa-fw fa-eye"></i>WEB CAMERA</span></a></li>
-        </ul>
+        <div id="cssmenu">
+            <ul>
+                <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i>HOME</span></a></li>
+                <li><a href="about.php"><span><i class="fa fa-fw fa-bank"></i>ABOUT</span></a></li>
+                <li><a href="services.php"><span><i class="fa fa-fw fa-cube"></i>SERVICES</span></a></li>
+                <li><a href="gallery.php"><span><i class="fa fa-fw fa-camera-retro"></i>GALLERY</span></a></li>
+                <li><a href="contacts.php"><span><i class="fa fa-fw fa-chevron-down"></i>CONTACTS</span></a>
+                    <ul>
+                        <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="map.php"><span><i class="fa fa-fw fa-eye"></i>LIVE MAP</span></a></li>
+            </ul>
