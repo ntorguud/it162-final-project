@@ -4,23 +4,20 @@
 
         <div class="third">
             <h3>Opening Hours</h3>
-            <p>Monday: 9AM - 6PM</p>
-            <p>Tuesday: 9AM - 6PM</p>
-            <p>Wednesday: 9AM - 6PM</p>
-            <p>Thursday: 9AM - 6PM</p>
-            <p>Friday: 9AM - 6PM</p>
-            <p>Saturday: 10AM - 5PM</p>
+            <p>Monday: 8.30AM - 7PM</p>
+            <p>Tuesday: 8.30AM - 7PM</p>
+            <p>Wednesday: 8.30AM - 7PM</p>
+            <p>Thursday: 8.30AM - 7PM</p>
+            <p>Friday: 8.30AM - 7PM</p>
+            <p>Saturday: 9AM - 4PM</p>
             <p>Sun: Closed</p>
 
         </div>
 
         <div class="third">
             <h3>Contact Information</h3>
-            <p>3818 S Othello Street, 2nd Floor,<br> Seattle, WA 98118</p>
-            <p>TEL: 206-123-1234</p>
-            <p>TTY: 206-123-1234</p>
-            <p><strong>MAILING ADDRESS</strong></p>
-            <p>PO BOX 3007 Seattle, WA 98114-3007</p>
+            <p>12 Horoolol<br> Ulaanbaatar, Mongolia, 13370</p>
+            <p><a href="tel:97611458847">Phone: (976) 11 45 8847</a></p>
         </div>
 
         <div class="third">
