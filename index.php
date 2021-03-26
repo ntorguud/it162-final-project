@@ -10,7 +10,6 @@
     });
 </script>
 
-<div id="wrapper">
     <div class="blueberry">
         <ul class="slides">
             <li><img src="images/naran.png" alt="image"></li>
@@ -27,7 +26,7 @@
             <div class="text">
                 <h2> Welcome </h2>
                 <img class="left" src="images/adult1.jpg" alt="adult">
-                <p>Welcome to "Buren Dent" Dental Clinic in Ulaanbaatar!
+                <p>Welcome to "Enerel Dent" Dental Clinic in Ulaanbaatar!
                     Our team strives to provide the best service to each and every client.<br>
                     We always make sure that our clients are satisfied and happy every time they walk through our doors. Whether it’s a checkup or in need of corrective care, you can trust in us.<br>
                     Our goal is to make you shine your biggest and brightest smile!</p>
@@ -43,9 +42,9 @@
         <div class="row">
 
             <div class="text">
-                <h2> Pediatric Dental At "Buren Dent" Dental Clinic</h2>
+                <h2> Pediatric Dental At "Enerel Dent" Dental Clinic</h2>
                 <img class="left" src="images/kid1.jpg" alt="kid">
-                <p>There’s nothing more important than your child’s health and wellbeing. At "Buren Dent" Dental Clinic, we care for your kids as if they were our own in our dedicated and separate kid-friendly zone. Our team always goes above and beyond to make sure every young patient’s visit is a positive experience that will set them up for a lifetime of optimal dental health.</p>
+                <p>There’s nothing more important than your child’s health and wellbeing. At "Enerel Dent" Dental Clinic, we care for your kids as if they were our own in our dedicated and separate kid-friendly zone. Our team always goes above and beyond to make sure every young patient’s visit is a positive experience that will set them up for a lifetime of optimal dental health.</p>
 
             </div>
             <!--end text-->
@@ -53,7 +52,7 @@
         <!--end row-->
 
         <div class="text-2">
-            <h2>Learn more about "Buren Dent"</h2>
+            <h2>Learn more about "Enerel Dent"</h2>
             <p>No matter where you are in your dental health journey, "Buren Dent" wants to help with guidance and support. By offering an affordable new patient appointment, we hope you'll call us today and become a patient for life!</p>
         </div>
 
