@@ -30,13 +30,13 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "MichidDent Dental Clinic Home Page";
+        $title = "Enerel Dent Dental Clinic Home Page";
         $logo = 'fa-teeth';
-        $PageID = 'Welcome to "Michid Dent"';
+        $PageID = 'Welcome to "Enerel Dent"';
     break;
     
     case 'about.php':
-        $title = "MichidDent Dental Clinic About Page";
+        $title = "Enerel Dent Dental Clinic About Page";
         $logo = 'fa-cube';
         $logo_color = ' style="color:#0f0"';
         $PageID = 'Meet our team';
@@ -57,24 +57,17 @@ switch(THIS_PAGE){
     break;
 
     case 'calendar.php':
-        $title = "Big/Google Calendar Page";
+        $title = "Google Calendar Page";
         $logo = "fa-calendar";
         $logo_color = ' style="color:#00f"';
         $PageID = 'Calendar';
     break;
 
     case 'map.php':
-        $title = "Big/Google Map Page";
+        $title = "Google Map Page";
         $logo = "fa-map-o";
         $logo_color = ' style="color:#00f"';
         $PageID = 'Google Map';
-    break;
-
-    case 'youtube.php':
-        $title = "Big/YouTube Page";
-        $logo = "fa-youtube-square";
-        $logo_color = ' style="color:#00f"';
-        $PageID = 'YouTube';
     break;
 
     default:
