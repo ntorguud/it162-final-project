@@ -59,7 +59,7 @@
     </main>
 
     <aside>
-        <img src="images/teeth.png" alt="teeth">
+        <img src="images/dental-care.png" alt="teeth">
         <form action="formhandler1.php" method="post">
             <div class="signup">
                 <h3>E-NEWSLETTER SIGNUP</h3>

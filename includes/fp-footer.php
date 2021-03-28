@@ -23,11 +23,8 @@
         <div class="third">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="../index.html"><img src="images/facebook.png" alt="facebook"></a></li>
-                <li><a href="../index.html"><img src="images/insta.jpeg" alt="insta"></a></li>
-                <li><a href="../index.html"><img src="images/twitter.png" alt="twitter"></a></li>
-                <li><a href="../index.html"><img src="images/snap.jpeg" alt="snap"></a></li>
-
+                <li><a href="https://www.facebook.com/Enereldent/photos/?ref=page_internal"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="../index.html"><img src="images/insta.png" alt="insta"></a></li>
             </ul>
         </div>
 
