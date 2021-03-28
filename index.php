@@ -53,13 +53,13 @@
 
         <div class="text-2">
             <h2>Learn more about "Enerel Dent"</h2>
-            <p>No matter where you are in your dental health journey, "Buren Dent" wants to help with guidance and support. By offering an affordable new patient appointment, we hope you'll call us today and become a patient for life!</p>
+            <p>No matter where you are in your dental health journey, "Enerel Dent" wants to help with guidance and support. By offering an affordable new patient appointment, we hope you'll call us today and become a patient for life!</p>
         </div>
 
     </main>
 
     <aside>
-        <img src="images/dental-care.png" alt="teeth">
+        <img src="images/dental-care.png" alt="teeth" width="100px">
         <form action="formhandler1.php" method="post">
             <div class="signup">
                 <h3>E-NEWSLETTER SIGNUP</h3>
