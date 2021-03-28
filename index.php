@@ -12,9 +12,9 @@
 
     <div class="blueberry">
         <ul class="slides">
-            <li><img src="images/naran.png" alt="image"></li>
-            <li><img src="images/naran1.png" alt="images"></li>
-            <li><img src="images/naran2.png" alt="images"></li>
+            <li><img src="images/enerel-front.jpeg" alt="image"></li>
+            <li><img src="images/enerel-family.jpeg" alt="images"></li>
+            <li><img src="images/enerel-conference.jpeg" alt="images"></li>
         </ul>
     </div>
     <!-- end slideshow -->
@@ -43,7 +43,7 @@
 
             <div class="text">
                 <h2> Pediatric Dental At "Enerel Dent" Dental Clinic</h2>
-                <img class="left" src="images/kid1.jpg" alt="kid">
+                <img class="left" src="images/enerel-ped1.jpeg" alt="kid">
                 <p>There’s nothing more important than your child’s health and wellbeing. At "Enerel Dent" Dental Clinic, we care for your kids as if they were our own in our dedicated and separate kid-friendly zone. Our team always goes above and beyond to make sure every young patient’s visit is a positive experience that will set them up for a lifetime of optimal dental health.</p>
 
             </div>
