@@ -49,13 +49,6 @@ switch(THIS_PAGE){
         $PageID = 'Galleries';
     break;
 
-    case 'webcam.php':
-        $title = "Web Cam Page";
-        $logo = "fa-eye";
-        $logo_color = ' style="color:#00f"';
-        $PageID = 'Web surveillance ';
-    break;
-
     case 'calendar.php':
         $title = "Google Calendar Page";
         $logo = "fa-calendar";

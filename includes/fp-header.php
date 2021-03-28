@@ -1,4 +1,4 @@
-<?php include '../includes/fp-config.php' ?>
+<?php include 'includes/fp-config.php' ?>
 <!doctype html>
 <html lang='en'>
 
