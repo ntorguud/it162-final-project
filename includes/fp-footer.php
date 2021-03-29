@@ -1,4 +1,21 @@
 <?php include 'includes/fp-config.php' ?>
+
+<aside>
+    <img src="images/dental-care.png" alt="teeth" width="100">
+    <form action="formhandler1.php" method="post">
+        <div class="signup">
+            <h3>E-NEWSLETTER SIGNUP</h3>
+            <p>SUBSCRIBE</p>
+            <p>Subscribe to our newsletter for the latest news and services updates straight to your inbox.</p>
+        </div>
+        <div class="signup">
+            <input type="text" placeholder="Email" name="mail">
+            <input type="submit" value="Subscribe">
+
+        </div>
+    </form>
+</aside>
+
 <footer>
     <div class="row">
 
@@ -24,7 +41,6 @@
             <h3>Quick Links</h3>
             <ul>
                 <li><a href="https://www.facebook.com/Enereldent/photos/?ref=page_internal"><img src="images/facebook.png" alt="facebook"></a></li>
-                li><a href="https://www.facebook.com/Enereldent/photos/?ref=page_internal"><img src="images/facebook.png" alt="facebook"></a></li>
                 <li><a href="../index.html"><img src="images/insta.png" alt="insta"></a></li>
             </ul>
         </div>
