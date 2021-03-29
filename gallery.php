@@ -97,23 +97,6 @@
     </div>
 </main>
 
-
-<aside>
-    <img src="images/teeth.png" alt="teeth">
-    <form action="formhandler1.php" method="post">
-        <div class="signup">
-            <h3>E-NEWSLETTER SIGNUP</h3>
-            <p>SUBSCRIBE</p>
-            <p>Subscribe to our newsletter for the latest news and services updates straight to your inbox.</p>
-        </div>
-        <div class="signup">
-            <input type="text" placeholder="Email" name="mail">
-            <input type="submit" value="Subscribe">
-
-        </div>
-    </form>
-</aside>
-
 <?php include 'includes/fp-footer.php' ?>
 </div> <!-- end wrapper -->
 </body>

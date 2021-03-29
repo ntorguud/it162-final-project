@@ -2,7 +2,7 @@
 
 <!--start slideshow-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="js/jquery.blueberry.js"></script> 
+<script src="js/jquery.blueberry.js"></script>
 
 <script>
     $(window).load(function() {
@@ -25,7 +25,7 @@
 
         <div class="text">
             <h2> Welcome </h2>
-            <img class="left" src="images/adult1.jpg" alt="adult">
+            <img class="left" src="images/adult1.jpeg" alt="adult">
             <p>Welcome to "Enerel Dent" Dental Clinic in Ulaanbaatar!
                 Our team strives to We provide multi functional dental service to each and every client.<br>
                 We always make sure that our clients are satisfied and happy every time they walk through our doors. Whether it’s a checkup or in need of corrective care, you can trust in us.<br>
@@ -41,9 +41,11 @@
 
         <div class="text">
             <h2> Pediatric Dental At "Enerel Dent" Dental Clinic</h2>
-            <img class="left" src="images/enerel-ped1.jpeg" alt="kid">
-            <img class="left" src="images/enerel-ped2.jpeg" alt="kid">
-            <img class="left" src="images/enerel-ped3.jpeg" alt="kid">
+            <div class="left">
+                <img class="column" src="images/enerel-ped1.jpeg" alt="kid">
+                <img class="column" src="images/enerel-ped2.jpeg" alt="kid">
+                <img class="column" src="images/enerel-ped3.jpeg" alt="kid">
+            </div>
             <p>There’s nothing more important than your child’s health and wellbeing. At "Enerel Dent" Dental Clinic, we care for your kids as if they were our own in our dedicated and separate kid-friendly zone. Our team always goes above and beyond to make sure every young patient’s visit is a positive experience that will set them up for a lifetime of optimal dental health.</p>
 
         </div>
