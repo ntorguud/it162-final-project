@@ -3,6 +3,9 @@
 <main>
 
     <h1> "Enerel Dent" Dental Clinic Services</h1>
+
+    <img src="images/enerel-service.jpeg" alt="adult" width="70%">
+
     <nav id="secondary">
         <ul>
             <li><a href="#exam">Dental Exams</a></li>
@@ -49,7 +52,7 @@
 
         Sealants can protect teeth from decay for many years, but need to be checked for wear and chipping at regular dental visits.</p>
 
-    <br><h2 id="fluoride">Fluoride Treatment</h2>
+    <h2 id="fluoride">Fluoride Treatment</h2>
     <p>Fluoride is the most effective agent available to help prevent tooth decay. It is a mineral that is naturally present in varying amounts in almost all foods and water supplies. The benefits of fluoride have been well known for over 50 years and are supported by many health and professional organizations.</p>
 
 </main>
