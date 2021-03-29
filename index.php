@@ -25,7 +25,7 @@
 
         <div class="text">
             <h2> Welcome </h2>
-            <img class="left" src="images/adult1.jpeg" alt="adult">
+            <img src="images/adult1.jpeg" alt="adult" width="70%">
             <p>Welcome to "Enerel Dent" Dental Clinic in Ulaanbaatar!
                 Our team strives to We provide multi functional dental service to each and every client.<br>
                 We always make sure that our clients are satisfied and happy every time they walk through our doors. Whether it’s a checkup or in need of corrective care, you can trust in us.<br>
