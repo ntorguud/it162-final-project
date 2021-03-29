@@ -50,7 +50,7 @@
     <ul>
         <li><i>&copy; 2020-<?= date('Y') ?></i></li>
         <li><i>All Rights Reserved</i></li>
-        <li><i><a href=".../index.php"> Web Design by Naran</a></i></li>
+        <li><i><a href="http://hackergirl.xyz/index.php"> Web Design by Naran</a></i></li>
         <li><i><a href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fcentral.mystudentswa.com%2Ftinph%2Fweb110%2Ffinal%2Findex.html">
                     <img src="images/html.png" alt="html"></a></i></li>
         <li><i><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fcentral.mystudentswa.com%2Ftinph%2Fweb110%2Ffinal%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
