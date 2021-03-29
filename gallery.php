@@ -1,104 +1,48 @@
 <?php include 'includes/fp-header.php' ?>
+<!--start slideshow-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.blueberry.js"></script>
+
 <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        captionText.innerHTML = dots[slideIndex - 1].alt;
-    }
+    $(window).load(function() {
+        $('.blueberry').blueberry();
+    });
 </script>
-<main>
 
-    <h1> Dental Care Seattle Office </h1>
-    <div class="container">
-        <div class="mySlides">
-            <div class="numbertext">1 / 6</div>
-            <img src="images/office1.png" style="width:100%" alt="Office 1">
-        </div>
+<body>
+    <div id="wrapper">
 
-        <div class="mySlides">
-            <div class="numbertext">2 / 6</div>
-            <img src="images/office2.png" style="width:100%" alt="Office 2">
-        </div>
+        <main>
 
-        <div class="mySlides">
-            <div class="numbertext">3 / 6</div>
-            <img src="images/office3.png" style="width:100%" alt="Office 3">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-            <img src="images/office4.png" style="width:100%" alt="Office 4">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">5 / 6</div>
-            <img src="images/office5.png" style="width:100%" alt="Office 5">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">6 / 6</div>
-            <img src="images/office6.png" style="width:100%" alt="Office 6">
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
-
-        <div class="row">
-            <div class="column">
-                <img class="demo cursor" src="images/office1.png" style="width:100%" onclick="currentSlide(1)" alt="Office 1">
+            <div class="blueberry">
+                <ul class="slides">
+                    <li><figure>
+                        <img src="images/enerel-hall.jpeg" alt="group" height="400">
+                        <figcaption><i>"Enerel Dent" Dental Clinic Hall during COVID 19</i></figcaption>
+                    </figure></li>
+                    <li><figure>
+                        <img src="images/adult1.jpeg" alt="group" height="400">
+                        <figcaption><i>Adult Room</i></figcaption>
+                    </figure></li>
+                    <li><figure>
+                        <img src="images/enerel-ped1.jpeg" alt="group" height="400">
+                        <figcaption><i>Pediatric Room</i></figcaption>
+                    </figure></li>
+                    <li><figure>
+                        <img src="images/enerel-ped2.jpeg" alt="group" height="400">
+                        <figcaption><i>Pediatric Room</i></figcaption>
+                    </figure></li>
+                    <li><figure>
+                        <img src="images/enerel-recep.jpeg" alt="group" height="400">
+                        <figcaption><i>"Enerel Dent" Dental Clinic Reception during COVID 19</i></figcaption>
+                    </figure></li>
+                </ul>
             </div>
-            <div class="column">
-                <img class="demo cursor" src="images/office2.png" style="width:100%" onclick="currentSlide(2)" alt="Office 2">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="images/office3.png" style="width:100%" onclick="currentSlide(3)" alt="Office 3">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="images/office4.png" style="width:100%" onclick="currentSlide(4)" alt="Office 4">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="images/office5.png" style="width:100%" onclick="currentSlide(5)" alt="Office 5">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="images/office6.png" style="width:100%" onclick="currentSlide(6)" alt="Office 6">
-            </div>
-        </div>
+            <!-- end slideshow -->
+        </main>
 
-    </div>
-</main>
-
-<?php include 'includes/fp-footer.php' ?>
-</div> <!-- end wrapper -->
+        <?php include 'includes/fp-footer.php' ?>
+    </div> <!-- end wrapper -->
 </body>
 
 </html>
