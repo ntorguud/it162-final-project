@@ -18,7 +18,7 @@
 </head>
 
 <header>
-    <a href="index.html">
+    <a href="index.php">
         <img id="logo" src="images/enerel-logo.jpeg" alt="logo">
     </a>
 </header>

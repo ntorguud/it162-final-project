@@ -42,7 +42,7 @@ switch(THIS_PAGE){
         $PageID = 'Meet our team';
     break;
 
-    case 'galleries.php':
+    case 'gallery.php':
         $title = "Galleries";
         $logo = "fa-camera-retro";
         $logo_color = ' style="color:#00f"';
