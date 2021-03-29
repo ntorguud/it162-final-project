@@ -4,7 +4,6 @@
     <div id="wrapper">
 
         <main>
-            <h1>Smile With Confidence</h1>
             <div class="row">
 
                 <div class="text">
